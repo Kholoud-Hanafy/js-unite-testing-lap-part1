@@ -4,7 +4,7 @@ const { clearDatabase } = require("../db.connection");
 
 const req = request(app);
 
-fdescribe("Test Todo Routes", () => {
+describe("Test Todo Routes", () => {
   let userInDb;
   let token;
   let todoinDb
